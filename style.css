@@ -3,19 +3,40 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Fredericka+the+Great&display=swap');
+
 body {
     margin: 0px;
-    font-family: Arial, sans-serif;
+    font-family: 'Inconsolata', monospace;
+    background-color: #F0F0F0;
 }
-header, section {
+
+
+header {
     padding: 20px;
+    background-color: #F0F0F0;
+    border-bottom: 2px solid #000;
 }
+
 p, li {
     line-height: 1.5em;
 }
 
 #inspiration {
-    background-color: #F0F0F0;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    background-color: #CEE8EA;
+    border: 2px solid #000;
+    border-radius: 8px;
+    padding: 20px;
 }
+
+#photo {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+  }
