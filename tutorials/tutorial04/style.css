@@ -53,7 +53,7 @@ article, aside, section, main {
    background: #36353a;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
    .container {
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr .75fr 4fr 2fr 2fr;
@@ -68,7 +68,7 @@ article, aside, section, main {
    }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
    .container {
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr .75fr 3fr 3fr 3fr 2fr 2fr;
