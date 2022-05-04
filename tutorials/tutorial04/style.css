@@ -80,7 +80,7 @@ article, aside, section, main {
          "e e"
          "g g"
          "f f";
-      column-gap: 8px;
-      row-gap: 8px;
+      column-gap: 10px;
+      row-gap: 10px;
    }
 }
