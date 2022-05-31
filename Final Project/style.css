@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Ovo&family=Raleway&display=swap');
+
+h1, h2 {
+    font-family: 'Carter One', cursive;
+    /* DARK GREEN color: #426c27; */
+    /* BLUE color: #61a1d1; */
+    /* ORANGE color: #ed667a; */
+    /* LIGHT GREEN color: #86bd57; */
+    /* YELLOW color: #fcf294; */
+    color: #ed667a;
+    margin-top: 350px;
+    margin-bottom: 350px;
+    margin-right: 200px;
+    margin-left: 200px;
+	text-shadow: 3px 3px 5px black;
+}
+
+h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+h2 {
+    font-size: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+h3 {
+    font-size: 42px;
+    color: #61a1d1;
+    text-shadow: 3px 3px 5px black;
+}
+
+h4 {
+    font-size: 38px;
+    color: #86bd57;
+    text-shadow: 3px 3px 5px black;
+}
+
+h5 {
+    font-size: 32px;
+}
+
+h6 {
+   font-size: 26px;
+}
+
+p {
+    font-family: 'Ovo', serif;
+    font-size: 16px;
+}
+
+.mainBod {
+    background-image: url("images/studio\ ghibli\ bg.png");
+}
+
+#openingImage {
+    margin: 50px;
+    filter: drop-shadow(1px 1px 5px white)
+        drop-shadow(-1px 1px 5px white)
+        drop-shadow(1px -1px 5px white)
+        drop-shadow(-1px -1px 5px white);
+}
+
+#aboutStudio {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#aboutBody {
+    background-color: #61a1d1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 50px;
+}
+
+.pageButton {
+    font-family: 'Raleway', sans-serif;
+    font-size: 38px;
+    color: #86bd57;
+    text-shadow: 3px 3px 5px black;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#pageLinks {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin-top: -300px;
+margin-bottom: 50px;
+}
+
+.pageButtPhoto {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+a:link {
+    text-decoration: none;
+  }
