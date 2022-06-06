@@ -7,85 +7,69 @@
        <script src="scripts.js" type="text/javascript"></script>
     </head>
     <body class="mainBod" onload="playbgm()">
-        <section id="openingImage">
-            <img src="images/studio gibili logo.png" alt="studio ghibli logo" width="100%"/>
-            <audio id="bgm" loop="loop">
-                <source src="audio/ghibli soundtracks.mp3" type="audio/mp3"/>
-            </audio>
-        </section>
-        <section id="aboutHead">
-            <h1>This is:</h1>
-            <h2>STUDIO GHIBLI</h2>
-            <h3 id="aboutStudio">About the Studio</h3>
-        </section>
-        <section id="aboutBody">
-            <p>Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.</p>
-            <p>Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.</p>
-            <p>Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.
-                Brief description describing the descriptions of the described studio.</p>
-        </section>
-        <section>
-            <h2>
-                Want to Learn More?
-            </h2>
-            <h1>
-                Check Out:
-            </h1>
-            <div id="pageLinks">
-                <a href="shorts.html"><button class="pageButton">SHORT FILMS <img class="pageButtPhoto" src="images/kittenbus.jpg"/></button></a>
-                <h4>OR</h4>
-                <a href="features.html"><button class="pageButton">FEATURE FILMS <img class="pageButtPhoto" src="images/howl flying.jpeg"/></button></a>
-            </div>
-        </section>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="shorts.html">Short Films</a>
+            <a href="features.html">Feature Films</a>
+        </nav>
+            <section id="openingImage">
+                <img src="images/studio gibili logo.png" alt="studio ghibli logo" width="100%"/>
+                <audio id="bgm" loop="loop">
+                    <source src="audio/ghibli soundtracks.mp3" type="audio/mp3"/>
+                </audio>
+            </section>
+            <section class="reveal" id="aboutHead">
+                <h1 class="reveal">This is:</h1>
+                <h2 class="reveal">STUDIO GHIBLI</h2>
+                <h3 class="reveal" id="aboutStudio">About the Studio</h3>
+            </section>
+            <section class="reveal" id="aboutBody">
+                <p>"Studio Ghibli (Japanese: 株式会社スタジオジブリ) is a Japanese animation film studio headquartered in Koganei, Tokyo.
+                     It is best known for its animated feature films, and has also produced several short subjects, television commercials,
+                      and two television films. Its mascot and most recognizable symbol is a character named Totoro, a giant catlike spirit
+                       from the 1988 anime film My Neighbor Totoro. Among the studio's highest-grossing films are Spirited Away (2001),
+                        Howl's Moving Castle (2004) and Ponyo (2008). The studio was founded on June 15, 1985, by directors Hayao Miyazaki
+                         and Isao Takahata and producer Toshio Suzuki, after the successful performance of Topcraft's Nausicaä of the
+                          Valley of the Wind (1984). It has also collaborated with video game studios on the visual development of several games.
+                </p>
+                <p>Five of the studio's films are among the ten highest-grossing anime feature films made in Japan. Spirited Away is second,
+                     grossing 31.68 billion yen in Japan and over US$380 million worldwide; and Princess Mononoke is fourth,
+                      grossing 20.18 billion yen. Many of their works have won the Animage Grand Prix award.
+                       Four have won the Japan Academy Prize for Animation of the Year. Five of their films have received
+                        Academy Award nominations. Spirited Away won the 2002 Golden Bear and the 2003 Academy Award for Best Animated Feature.
+                         On August 3, 2014, Studio Ghibli temporarily suspended production following Miyazaki's retirement. In February 2017,
+                          Suzuki announced that Miyazaki had come out of retirement to direct a new feature film, How Do You Live?, which
+                           he intended to be his last film.
+                </p>
+                <p>The name "Ghibli" was chosen by Miyazaki from the Italian noun ghibli (also used in English), based on the
+                     Libyan Arabic name for hot desert wind (قبلي, 'ghiblī'), the idea being the studio would "blow a new wind through
+                      the anime industry". It also refers to an Italian aircraft, the Caproni Ca.309. Although the Italian word would
+                       be more accurately transliterated as "Giburi" (ギブリ), with a hard g sound, the studio is romanised in Japanese as Jiburi (ジブリ).
+                </p>
+                <p id="aboutCite">(Studio Ghibli, 2022)</p>
+                <p id="aboutCite">Wikipedia. 2022. Studio Ghibli. Available at:</p><a href="https://en.wikipedia.org/wiki/Studio_Ghibli">https://en.wikipedia.org/wiki/Studio_Ghibli</a>
+                </br>
+                <div id="foundersSection">
+                    <img id="foundersPhoto" src="images/ghibli cofounders.jpeg" alt="Co-founders of Studio Ghibli"/>
+                    <div id="coFounders">
+                    <p> </p>
+                    <p> </p>
+                    <p id="cofDes">Co-founders of Studio Ghibli, from right to left: Hayao Miyazaki, Isao Takahata, Toshio Suzuki.</p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2 class="reveal">
+                    Want to Learn More?
+                </h2>
+                <h1 class="reveal">
+                    Check Out:
+                </h1>
+                <div class="reveal" id="pageLinks">
+                    <a href="shorts.html"><button class="pageButton">SHORT FILMS <img class="pageButtPhoto" src="images/kittenbus.jpg"/></button></a>
+                    <h4>OR</h4>
+                    <a href="features.html"><button class="pageButton">FEATURE FILMS <img class="pageButtPhoto" src="images/howl flying.jpeg"/></button></a>
+                </div>
+            </section>
     </body>
 </html>

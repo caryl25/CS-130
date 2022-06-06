@@ -4,12 +4,12 @@ h1, h2 {
     font-family: 'Carter One', cursive;
     /* DARK GREEN color: #426c27; */
     /* BLUE color: #61a1d1; */
-    /* ORANGE color: #ed667a; */
+    /* ORANGE color: #ee6e2e; */
     /* LIGHT GREEN color: #86bd57; */
     /* YELLOW color: #fcf294; */
-    color: #ed667a;
-    margin-top: 350px;
-    margin-bottom: 350px;
+    color: #ee6e2e;
+    margin-top: 330px;
+    margin-bottom: 330px;
     margin-right: 200px;
     margin-left: 200px;
 	text-shadow: 3px 3px 5px black;
@@ -43,6 +43,8 @@ h4 {
 
 h5 {
     font-size: 32px;
+    color: #86bd57;
+    text-shadow: 3px 3px 5px black;
 }
 
 h6 {
@@ -52,6 +54,31 @@ h6 {
 p {
     font-family: 'Ovo', serif;
     font-size: 16px;
+    text-indent: 50px;
+}
+
+.navbar {
+    padding: 20px;
+    margin: -10px;
+    background-color: #426c2780;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar:hover {
+    background-color: #426c27;
+}
+
+.navbar a {
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+}
+
+a:visited {
+    color: white;
 }
 
 .mainBod {
@@ -67,7 +94,7 @@ p {
 }
 
 #aboutStudio {
-    padding-top: 50px;
+    padding-top: 100px;
     display: flex;
     justify-content: center;
 }
@@ -83,22 +110,57 @@ p {
     border-radius: 50px;
 }
 
+#aboutCite {
+    text-indent: 0px;
+}
+
+#foundersSection {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+}
+
+#coFounders {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+}
+
+#cofDes {
+    text-indent: 0px;
+}
+
+#foundersPhoto {
+    margin-top: 20px;
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
+}
+
 .pageButton {
     font-family: 'Raleway', sans-serif;
     font-size: 38px;
     color: #86bd57;
     text-shadow: 3px 3px 5px black;
-    padding: 50px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
+    border-radius: 30px;
+    border-color: #ee6e2e80;
+    background-color: #ee6e2e80;
+}
+
+.pageButton:hover {
+    background-color: #ee6e2e;
+    transform: scale(1.25);
 }
 
 #pageLinks {
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-margin-top: -300px;
-margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: -280px;
+    margin-bottom: 80px;
 }
 
 .pageButtPhoto {
@@ -110,3 +172,246 @@ margin-bottom: 50px;
 a:link {
     text-decoration: none;
   }
+
+  #shortsHead, #featuresHead {
+    display: flex;
+    justify-content: center;
+  }
+
+  #shortsBod {
+      background-color: #ee6e2e;
+  }
+
+  #featuresBod {
+      background-color: #fcf294;
+  }
+
+  #shortsBody {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  #featuresBody {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .shortCard {
+      margin: 25px;
+      height: 250px;
+      width: 500px;
+      border: dotted 5px #fcf294;
+      border-radius: 75px;
+      padding: 50px;
+      padding-right: 150px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      gap: 0px 15px;
+      position: relative;
+      transform: translateY(150px);
+      opacity: 0;
+      transition: 2s all ease;
+  }
+
+  .shortCard.active {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .shortCard p {
+      margin-top: -50px;
+      text-indent: 25px;
+      font-size: 13px;
+  }
+
+  .shortCard h5 {
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+  .shortPoster {
+      height: 250px;
+      width: 200px;
+      border-radius: 10px;
+      object-fit: cover;
+      grid-column: 1;
+      grid-row: 1/span 2;
+  }
+
+  .shortName {
+      grid-column: 2;
+      grid-row: 1;
+  }
+
+  .shortInfo {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .featureCard {
+    margin: 25px;
+    height: 575px;
+    width: 450px;
+    border: dotted 5px #ee6e2e;
+    border-radius: 75px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px 15px;
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+  }
+
+  .featureCard.active {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .featureCard p {
+      margin-left: 30px;
+      margin-right: 30px;
+      font-size: 12px;
+  }
+
+  .featurePoster {
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .featureVideo {
+    grid-column: 2;
+    grid-row: 1;
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+  }
+
+  .featureName {
+      margin-top: 25px;
+      grid-column: 1/span 2;
+      grid-row: 2;
+  }
+
+  .featureInfo {
+    margin-top: -45px;
+    grid-column: 1/span 2;
+    grid-row: 3;
+    text-indent: 0px;
+  }
+
+  .featureSynopsis {
+    margin-top: -30px;
+    grid-column: 1/span 2;
+    grid-row: 4;
+    text-indent: 25px;
+  }
+
+  .featureSources {
+    margin-top: -20px;
+    grid-column: 1/span 2;
+    grid-row: 5;
+    text-indent: 0px;
+  }
+
+  .reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+  }
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  #bgImg1 {
+    position: fixed;
+    top: 15%;
+    left: 15%;
+    margin-top: -15px;
+    margin-left: -15px;
+  
+    position: fixed;
+
+    animation: rotate 1s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+  }
+  
+  @keyframes rotate {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  #bgImg2 {
+    position: fixed;
+    top: 85%;
+    left: 85%;
+    margin-top: -85px;
+    margin-left: -85px;
+  
+    position: fixed;
+
+    animation: rotate 1s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+  }
+  
+  @keyframes rotate {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  #bgImg3 {
+    position: fixed;
+    top: 80%;
+    left: 10%;
+    margin-top: -10px;
+    margin-left: -80px;
+  
+    position: fixed;
+
+    animation: rotate 1s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+  }
+  
+  @keyframes rotate {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  #bgImg4 {
+    position: fixed;
+    top: 15%;
+    left: 95%;
+    margin-top: -15px;
+    margin-left: -95px;
+  
+    position: fixed;
+
+    animation: rotate 1s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+  }
+  
+  @keyframes rotate {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  
